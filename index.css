@@ -1,3 +1,3 @@
-body{
-    color:pink
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

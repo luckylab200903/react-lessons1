@@ -1,0 +1,19 @@
+const TestComponent = ({name,cuisine, rating,delivery}) => {
+    return (
+        <>
+
+        <h3>{name}</h3>
+        <h3>{cuisine}</h3>
+        <h3>{rating}</h3>
+        <h3>{delivery}</h3> 
+        </>
+    )
+}
+
+
+     {restaurants.map(restaurant => <TestComponent name={restaurant.info.name} cuisine={restaurant.info.cuisine}/>)}
+
+
+
+        {/* <RestaurantCard resName={reslist[0]}/>\
+        <RestaurantCard resName={reslist[1]}/>*/}
